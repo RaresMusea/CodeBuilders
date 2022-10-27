@@ -1,7 +1,7 @@
 # CodeBuilders
 Fronted Project-CodeBuilders: e-Learning platform used by people to learn how to code.
 
-##About
+#About
 Programming is a pleasant activity, but very often it becomes stressful when we don't know what to learn, or where we should learn from.
 
 The Internet would be the answer to both of the 2 questions above, but many times we don't even realize that we are learning from some non-compliant, depreciated, non-updated materials according to current standards.
