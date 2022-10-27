@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    background-blend-mode: overlay;
+    background: url(../images/wallpaper.jpeg) no-repeat;
+}
+
+nav a,
+nav a:hover,
+nav a:visited,
+nav a:focus {
+    color: #2d3047;
+}
+
+
+header nav {
+    height: 140px;
+    padding: 2em;
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+header nav .navigationMenu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-bottom: 1em;
+}
+
+header nav .navigationMenu h1 {
+    font-family: "VCR OSD Mono", sans-serif;
+    color: #2d3047;
+    font-size: 8vmin;
+    cursor: pointer;
+    text-align: center;
+}
+
+header nav .navigationMenu h1 .pageLogo {
+    text-decoration: none;
+}
+
+header nav .navigationMenu .hamburger {
+    width: 9vmin;
+    height: 8vmax;
+    -webkit-transition: .2s ease-in-out;
+    transition: .2s ease-in-out;
+}
+
+header nav .navigationMenu .closeHamburger {
+    display: none;
+}
+
+header nav .navigationMenu .closeHamburgerToggled {
+    display: block;
+    width: 9vmin;
+    height: 8vmax;
+}
+
+header nav .untoggled {
+    display: none;
+    font-family: "VCR OSD Mono", sans-serif;
+    font-size: 3vmin;
+    list-style-type: none;
+}
+
+header nav .toggled {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    list-style-type: none;
+    font-family: "VCR OSD Mono", sans-serif;
+    font-size: 4vmin;
+}
+
+header nav a {
+    position: relative;
+    text-decoration: none;
+    font-weight: bolder;
+    -webkit-transition: .2s ease-in-out;
+    transition: .2s ease-in-out;
+}
+
+header nav a::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    border-radius: 2px;
+    background-color: #2d3047;
+    bottom: 0;
+    left: 0;
+    -webkit-transform-origin: right;
+    transform-origin: right;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: -webkit-transform .3s ease-in-out;
+    transition: -webkit-transform .3s ease-in-out;
+    transition: transform .3s ease-in-out;
+    transition: transform .3s ease-in-out, -webkit-transform .3s ease-in-out;
+    color: #2d3047;
+}
+
+header nav a:hover::before {
+    -webkit-transform-origin: left;
+    transform-origin: left;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+    color: #2d3047;
+}
+
+header nav a:visited {
+    color: #2d3047;
+}
+
+header nav a:hover {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+header nav ul:first-child {
+    margin-top: 2em;
+}
+
+header nav li {
+    margin-bottom: 1em;
+}
+
+@media screen and (min-width: 1100px) {
+    body {
+        background: url(../images/Background.jpeg) no-repeat;
+    }
+
+    header nav {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+    }
+
+    header nav .navigationMenu h1 {
+        font-size: 6vmin;
+    }
+
+    header nav .navigationMenu img {
+        display: none;
+    }
+
+    header nav .untoggled {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+
+    header nav .untoggled li {
+        margin-right: 1em;
+    }
+
+    header nav .untoggled li a {
+        text-decoration: none;
+        color: #2d3047;
+    }
+}

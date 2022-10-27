@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CodeBuilders-Courses</title>
+  <link rel="stylesheet" href="styles/navigation.css">
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="styles/courses.css">
+  <link rel="stylesheet" href="styles/footer.css">
+  <script src="scripts/APIConsume.js" defer></script>
+  <script src="scripts/index.js" defer></script>
+  <script src="scripts/slideshow.js" defer></script>
+
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="navigationMenu">
+        <h1> <a href="index.html" class="pageLogo">CodeBuilders</a> </h1>
+        <img src="images/menu.svg" alt="Hamburger Menu Icon" id="hamburgerMenu" class="hamburger">
+      </div>
+      <ul class="untoggled">
+        <li> <a href="index.html">HOME</a> </li>
+        <li><a href="about.html">ABOUT US</a></li>
+        <li><a href="courses.html">COURSES</a></li>
+        <li><a href="contact.html">CONTACT</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <div class="socialButton disabled">
+      <img src="images/link.svg" alt="Social Links" class="open">
+      <div class="socialIcons">
+        <a href="https://web.facebook.com/rares.musea" target="_blank"><img class="socialIcon"
+            src="images/facebook-logo-2019.svg" alt="Facebook Logo" title="Facebook"></a>
+        <a href="https://www.instagram.com/_raresmusea_2001_/" target="_blank"><img class="socialIcon"
+            src="images/instagram.svg" alt="Instagram Logo" title="Instagram"></a>
+        <a href="https://github.com/RaresMusea" target="_blank"><img class="socialIcon" src="images/github (1).svg"
+            alt="Github Logo" title="GitHub"></a>
+        <a href="https://www.linkedin.com/in/rare%C8%99-gabriel-mu%C8%99ea-325b4a214/" target="_blank"><img
+            class="socialIcon" src="images/linkedin.svg" alt="LinkedIn Logo" title="LinkedIn"></a>
+      </div>
+    </div>
+    <section class="slideshowContainer">
+      <div class="slideshow">
+        <input type="radio" name="slide1" id="slide1" class="radio" />
+        <input type="radio" name="slide2" id="slide2" class="radio" />
+        <input type="radio" name="slide3" id="slide3" class="radio" />
+        <input type="radio" name="slide4" id="slide4" class="radio" />
+        <div class=" slide first web">
+          <div class=insideSlideShow>
+            <h3 class="subtitle1"></h3>
+          </div>
+          <a href="#" class="navigator"><button class="enroll">ENROLL NOW</button></a>
+          <img
+            src="images/imageSlideshow/retina_1708x683_staging.toptal.net_front-end_dynamic-css-with-custom-properties-a84ea67ee11d387153c71eb243ece5e1.png"
+            alt="Front end web dev" class="slideshowItem">
+        </div>
+        <div class="slide">
+          <img src="images/imageSlideshow/image-1581461321730-c533c7672139a6d2e7a9d5a0829d6e82.png" alt="Java"
+            class="slideshowItem">
+        </div>
+        <div class="slide">
+          <img
+            src="images/imageSlideshow/retina_800x320_cover-0221-elasticsearch-dot-net-developers-Waldek_Newsletter-5da90b6465a077181cf457adea10f661.png"
+            alt=".NET Platform" class="slideshowItem">
+        </div>
+        <div class="slide">
+          <img
+            src="images/imageSlideshow/retina_1708x683_cover-0325-LearnCandC__Languages_Dan_Newsletter-743100f051077054fa1cc613ff4523a2.png"
+            alt="C and C++" class="slideshowItem">
+        </div>
+
+        <div class="automaticNavigation">
+          <div class="auto1"></div>
+          <div class="auto2"></div>
+          <div class="auto3"></div>
+          <div class="auto4"></div>
+        </div>
+      </div>
+      <div class="manualNavigation">
+        <label for="slide1" class="manual manual1"></label>
+        <label for="slide2" class="manual manual2"></label>
+        <label for="slide3" class="manual manual3"></label>
+        <label for="slide4" class="manual manual4"></label>
+      </div>
+    </section>
+
+    <h2 class="informations">Check out our latest <span>courses</span>!</h2>
+  </main>
+  <footer>
+    <div class="footer">
+      <div class="flexWrapper">
+        <div class="rightContent">
+          <h3 class="newsletterInfo">Get the freshest CodeBuilders news</h3>
+          <form class="newsletterForm" method="POST">
+            <input type="email" placeholder="Your email here" id="email">
+          </form>
+          <button class="subscribeNewsletter">Subscribe</button>
+        </div>
+        <div class="leftContent">
+          <h4 class="LogoOut">CodeBuilders<sup>®</sup></h4>
+          <div class="keywords">
+            <ul class="shortDescription">
+              <li>Courses</li>
+              <li>|</li>
+              <li>Learning</li>
+              <li>|</li>
+              <li>Careers</li>
+            </ul>
+            <p class="motto">Designed for self-taughts. By self- taugths.</p>
+          </div>
+        </div>
+      </div>
+      <div class="gridLayout">
+        <h4 class="headingFour">ABOUT</h4>
+        <h4 class="headingFour">TEAM</h4>
+        <h4 class="headingFour">PRODUCTS</h4>
+        <h4 class="headingFour">TESTIMONIALS</h4>
+        <h4 class="headingFour break"></h4>
+        <h4 class="headingFour">TERMS & CONDITIONS</h4>
+        <h4 class="headingFour">FAQ</h4>
+        <h4 class="headingFour">PRIVACY</h4>
+      </div>
+      <div class="line">
+        <p>©2022 CodeBuilders Solutions. All rights reserved. </p>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>

@@ -1,0 +1,221 @@
+footer {
+    background-color: rgba(255, 255, 255, 0.3);
+    /* box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5); */
+    margin-top: 4em;
+}
+
+.newsletterInfo {
+    padding: 1.5em;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: #2b4957;
+}
+
+.newsletterForm #email {
+    display: block;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    background: #dbdbdb;
+    margin: 0 auto;
+    font-size: .8em;
+    border: 1px solid #2b4957;
+    padding: .2em;
+    height: 35px;
+    font-weight: bolder;
+    width: 40%;
+    transition: .2s
+}
+
+#email:focus {
+    outline: none;
+    border: 3px solid #2b4957;
+
+}
+
+#email::selection {
+    background-color: #2d3047;
+    color: white;
+}
+
+.subscribeNewsletter {
+    display: block;
+    padding: 1em;
+    margin: .5em auto 0;
+    outline: none;
+    background: #465362;
+    font-family: 'Montserrat Alternates', serif;
+    border: none;
+    color: white;
+    font-weight: bolder;
+}
+
+.subscribeNewsletter:focus,
+.subscribeNewsletter:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    transition: .2s ease-out;
+}
+
+.LogoOut {
+    font-family: "VCR OSD Mono", sans-serif;
+    margin-top: 1em;
+    color: #2d3047;
+    font-size: 4vmin;
+    cursor: pointer;
+    text-align: center;
+}
+
+.keywords {
+    width: 100%;
+}
+
+.keywords ul {
+    list-style-type: none;
+    font-size: 2.5vmin;
+    cursor: pointer;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.shortDescription li {
+    text-align: center;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: bolder;
+    display: inline;
+}
+
+.motto {
+    text-align: center;
+    font-family: 'PT Sans', sans-serif;
+    color: #2d3047;
+    font-weight: 800;
+}
+
+.gridLayout {
+    margin-top: 3em;
+    display: grid;
+    grid-template-rows:1fr 1fr 1fr 1fr;
+    grid-template-columns:2fr 2fr;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    column-gap: 20px;
+}
+
+.headingFour {
+    font-family: 'Roboto', serif;
+    cursor: pointer;
+    color: #465362;
+    font-size: 1em;
+    transition: .2s ease-in-out;
+}
+
+.line p {
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 2em;
+    font-weight: bold;
+    font-family: "PT Sans", sans-serif;
+    color: #2b4957;
+}
+
+.break {
+    display: none;
+}
+
+
+@media screen and (min-width: 900px) {
+    .LogoOut {
+        color: #2d3047;
+        margin-left: 0.5em;
+        text-align: left;
+    }
+
+    .keywords {
+        width: 0;
+    }
+
+    .keywords ul {
+        text-align: left;
+        margin-left: 0.5em;
+    }
+
+    .shortDescription {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .shortDescription li {
+        font-family: 'Montserrat Alternates', sans-serif;
+        font-weight: bolder;
+        transition: .2s ease-in-out;
+        margin-left: .5em;
+    }
+
+    .shortDescription li:nth-child(2n+1):hover {
+        transform: scale(1.2);
+    }
+
+    .shortDescription li:nth-child(2n):hover,
+    .shortDescription li:nth-child(2n):focus {
+        transform: rotate(-90deg);
+    }
+
+    .flexWrapper {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row-reverse;
+        align-items: flex-end;
+
+    }
+
+    .rightContent {
+        width: 40%;
+    }
+
+    .rightContent #email {
+        width: 60%;
+    }
+
+    .leftContent {
+        width: 60%;
+        flex: 2;
+    }
+
+    .motto {
+        font-family: 'PT Sans', sans-serif;
+        color: #2d3047;
+        font-weight: 800;
+        margin-left: .5em;
+        width: 300px;
+        padding-top: 0;
+    }
+
+    .gridLayout {
+        margin-top: 3em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-left: 10em;
+        padding-right: 10em;
+        flex-wrap: wrap;
+    }
+
+
+    .headingFour:hover {
+        color: black;
+    }
+
+    .break {
+        flex-basis: 100%;
+        width: 0;
+        height: 5px;
+        overflow: hidden;
+    }
+
+    .line {
+        border-top: 3px solid rgba(0, 0, 0, 0.5);
+        margin-top: 1em;
+    }
+
+
+}
