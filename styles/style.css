@@ -8,8 +8,8 @@
 }
 
 main .paragraph {
-  margin-top: 2vmax;
-  font-size: 3vmin;
+  margin-top: 4vmax;
+  font-size: 1.1em;
   text-indent: .5em;
   padding: 0 0.1em;
   font-family: "Roboto", sans-serif;
@@ -26,8 +26,8 @@ main .socialButton {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 6vmin;
-  height: 6vmin;
+  width: 2.5em;
+  height: 2.5em;
   min-width: 6vmin;
   min-height: 6vmin;
   background: rgba(255, 255, 255, 0.3);
@@ -38,17 +38,19 @@ main .socialButton {
   position: fixed;
   -webkit-transition: 2s ease-in-out;
   transition: 2s ease-in-out;
+  padding-top:2em;
+  padding-right:2em;
 }
 
 main .socialButton img {
-  width: 4vmin;
-  height: 4vmin;
-  min-width: 4vmin;
-  min-height: 4vmin;
+  width: 2.5em;
+  height: 2.5em;
+  min-width: 2.5em;
+  min-height: 2.5em;
   position: absolute;
-  top: .7vmin;
-  left: .5vmin;
-  padding: .2em;
+  top: 0;
+  left: 0;
+  padding: .5em;
   -webkit-transition: .2s ease-in-out;
   transition: .2s ease-in-out;
   margin-bottom: 6em;
@@ -67,28 +69,29 @@ main .socialButton .socialIcons a > .socialIcon {
 }
 
 main .socialButton .socialIcons :nth-child(1) img {
-  margin-top: 2em;
-}
-
-main .socialButton .socialIcons :nth-child(2) img {
   margin-top: 4em;
 }
 
-main .socialButton .socialIcons :nth-child(3) img {
+main .socialButton .socialIcons :nth-child(2) img {
   margin-top: 6em;
 }
 
-main .socialButton .socialIcons :nth-child(4) img {
+main .socialButton .socialIcons :nth-child(3) img {
   margin-top: 8em;
+}
+
+main .socialButton .socialIcons :nth-child(4) img {
+  margin-top: 10em;
 }
 
 main .socialButton .socialIcons :nth-child(5) img {
   margin-top: 10em;
 }
 
-main .socialButton .enable img {
+main  .enable img {
   margin-top: 1em;
 }
+
 
 main .firstSection {
   width: 85vw;
@@ -102,7 +105,7 @@ main .firstSection {
 
 main .firstSection .subtitle {
   font-family: "Montserrat Alternates", sans-serif;
-  font-size: 5vmin;
+  font-size: 7vmin;
   margin-top: 1em;
   text-align: center;
 }
@@ -165,7 +168,7 @@ main .firstSection .sectionHeading {
   color: #2b4957;
   text-align: center;
   padding: 1em;
-  font-size: 4vmin;
+  font-size: 1.1em;
 }
 
 main .firstSection .logoMarker {
@@ -176,7 +179,6 @@ main .firstSection .logoMarker {
 
 main .firstSection #start {
   display: block;
-  padding: 1vw;
   outline: none;
   border-radius: 15px;
   border: none;
@@ -188,6 +190,7 @@ main .firstSection #start {
   font-weight: bolder;
   font-size: 3vmin;
   margin: 0 auto 1.5em;
+  padding:1em;
 }
 
 main .firstSection #start:hover {
@@ -198,8 +201,8 @@ main .firstSection #start:hover {
   background: #048A81;
 }
 
-main .firstSection .top,
-main .firstSection .floating {
+main .firstSection .top
+{
   font-weight: 700;
 }
 
@@ -216,7 +219,7 @@ main .firstSection .quotation {
 }
 
 main .firstSection .wrapper {
-  height: 40vmin;
+  height: 60vmin;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -228,9 +231,9 @@ main .firstSection .wrapper {
 }
 
 main .firstSection .wrapper .testimonial {
-  width: 50vmin;
-  min-width: 40vmin;
-  height: 30vmin;
+  width: 60vmin;
+  min-width: 60vmin;
+  height: 60vmin;
   border-radius: 30px;
   padding-left:1em;
   padding-right:1em;
@@ -309,6 +312,7 @@ main .firstSection .wrapper::-webkit-scrollbar {
   main .firstSection .paragraph {
     padding-left: 1.3em;
     padding-right: 1.3em;
+    margin-bottom:0;
   }
   main .firstSection .top {
     margin-top: 2em;

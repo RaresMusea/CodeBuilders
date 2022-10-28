@@ -14,6 +14,8 @@ const links = document.querySelector('.socialButton');
 const linksHeight = links.offsetHeight;
 const iconsContainer = document.querySelector('.socialIcons');
 const icons = document.querySelectorAll('.socialIcon');
+icons[0].id='firstIcon';
+
 
 //Responsive behaviour only: Appends the navbar when the hamburger button is triggered.
 hamburgerButton.addEventListener('click', () => {
@@ -92,7 +94,7 @@ links.addEventListener('click', () => {
         links.classList.add('enable');
         iconsContainer.style.display = 'block';
         icons.forEach(elem => increaseOpacity(elem));
-        links.style.height = `${links.offsetHeight + 150}px`;
+        links.style.height = `${links.offsetHeight + 180}px`;
         return;
     }
     if (links.classList.contains('enable')) {
