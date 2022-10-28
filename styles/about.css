@@ -1,9 +1,8 @@
 .target{
   display:block;
-  width:85%;
+  width:100%;
   height:50vmin;
-  margin:0 auto;
-  margin-top:2em;
+  margin: 2em auto 0;
 }
 
 .team{
@@ -13,8 +12,7 @@
   flex-wrap:nowrap;
   flex-direction:column;
   gap:1em;
-  margin-left:1em;
-  margin-right:1em;
+  width:100%;
 }
 
 .member{
@@ -49,18 +47,17 @@
 }
 
 .aboutMentor{
-  line-height: 1.2em;
+  text-align:center;
   text-indent:.9em;
   padding:1em;
-  font-size:1.2em;
+  font-size:1em;
   font-family: 'Roboto',sans-serif;
   color:#2b4957;
 }
 
 .enroll{
   display:block;
-  margin:0 auto;
-  margin-bottom:.6em;
+  margin: 0 auto 1em;
   outline:none;
   color:white;
   background-color:#2b4957;
@@ -68,7 +65,7 @@
   font-family:'Roboto',sans-serif;
   border:none;
   transition:.2s ease-in-out;
-  padding:.7em;
+  padding:.5em;
   border-radius:15px;
   
 }

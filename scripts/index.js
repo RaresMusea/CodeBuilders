@@ -17,6 +17,7 @@ const icons = document.querySelectorAll('.socialIcon');
 icons[0].id='firstIcon';
 
 
+
 //Responsive behaviour only: Appends the navbar when the hamburger button is triggered.
 hamburgerButton.addEventListener('click', () => {
     if (navBarList.classList.contains('untoggled')) {

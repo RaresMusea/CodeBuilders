@@ -1,9 +1,10 @@
 body {
     overflow-x: hidden;
+    width:100vw;
 }
 
 .slideShowContainer {
-    width: 100vw;
+    width: 100%;
     height: 75vmin;
     border-radius: 10px;
     overflow: hidden;
@@ -12,6 +13,7 @@ body {
 .slideshow {
     width: 500%;
     height: 75vmin;
+    overflow:hidden;
     display: flex;
 }
 
@@ -22,6 +24,7 @@ body {
 .slide {
     width: 20%;
     transition: 1s;
+    overflow:hidden;
 }
 
 .slide img {
@@ -34,7 +37,7 @@ body {
 .manualNavigation {
     position: absolute;
     width: 100vw;
-    margin-top: -40px;
+    margin-top: -20px;
     display: flex;
     justify-content: center;
 }
@@ -124,7 +127,7 @@ body {
 
 .courseCardContainer {
     display: flex;
-    height: auto;
+    height:20%;
     gap: 20px;
     margin-top: 2em;
     overflow-x: scroll;
@@ -144,7 +147,7 @@ body {
     min-width: 70%;
     margin-top: 2em;
     padding: 1em;
-    height: auto;
+    height: 30%;
 }
 
 .courseImage {
@@ -228,6 +231,10 @@ body {
 
     .courseImage {
         height: 40%;
+    }
+
+    .manualNavigation{
+        margin-top: -50px;
     }
 }
 
