@@ -140,12 +140,13 @@ main .firstSection .subtitle .highlightedText {
   }
 }
 
-main .firstSection .craneImage {
+/* main .firstSection .craneImage {
   /* width: 50vmin;
   height: 50vmin;
   display: block;
-  margin: 1em auto 0; */
-}
+  margin: 1em auto 0; 
+  }
+ */
 
 main .firstSection .subtitleContact {
   font-family: "Montserrat Alternates", sans-serif;
@@ -154,12 +155,13 @@ main .firstSection .subtitleContact {
   text-align: center;
 }
 
-main .firstSection .learningImage {
+/* main .firstSection .learningImage {
   /* width: 50vmin;
   height: 40vmin;
   display: block;
-  margin: 1em auto 0; */
-}
+  margin: 1em auto 0; 
+  }
+ */
 
 main .firstSection .sectionHeading {
   font-family: "Oswald", sans-serif;
