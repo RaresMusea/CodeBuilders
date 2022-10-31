@@ -7,7 +7,7 @@
 
 body {
     background-blend-mode: overlay;
-    background: url(../images/wallpaper.jpeg) no-repeat;
+    background: url(../images/Background.jpeg) no-repeat!important;
 }
 
 nav a,
@@ -20,13 +20,13 @@ nav a:focus {
 
 header nav {
     height: 140px;
-    padding: 2em;
+    /* padding: 2em; */
     -webkit-transition: .3s ease-in-out;
     transition: .3s ease-in-out;
 }
 
 header nav .navigationMenu {
-    display: -webkit-box;
+    /* display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-orient: horizontal;
@@ -39,7 +39,7 @@ header nav .navigationMenu {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    margin-bottom: 1em;
+    margin-bottom: 1em; */
 }
 
 header nav .navigationMenu h1 {
@@ -47,16 +47,17 @@ header nav .navigationMenu h1 {
     color: #2d3047;
     font-size: 8vmin;
     cursor: pointer;
-    text-align: center;
+    vertical-align: middle;
+    /* text-align: center; */
 }
 
-header nav .navigationMenu h1 .pageLogo {
+/* header nav .navigationMenu h1 .pageLogo {
     text-decoration: none;
-}
+} */
 
 header nav .navigationMenu .hamburger {
     width: 9vmin;
-    height: 8vmax;
+    /* height: 8vmax; */
     -webkit-transition: .2s ease-in-out;
     transition: .2s ease-in-out;
 }
@@ -75,7 +76,7 @@ header nav .untoggled {
     display: none;
     font-family: "VCR OSD Mono", sans-serif;
     font-size: 3vmin;
-    list-style-type: none;
+    /* list-style-type: none; */
 }
 
 header nav .toggled {
@@ -94,7 +95,8 @@ header nav .toggled {
     align-items: center;
     list-style-type: none;
     font-family: "VCR OSD Mono", sans-serif;
-    font-size: 5vmin;
+    font-size: 4vmin;
+    margin-top:2em;
 }
 
 header nav a {
@@ -142,15 +144,15 @@ header nav a:hover {
     transform: scale(1.2);
 }
 
-header nav ul:first-child {
-    margin-top: 2em;
-}
+/* header nav ul:first-child {
+     margin-top: 2em; }
+
 
 header nav li {
-    margin-bottom: 1em;
-}
+     margin-bottom: 1em; 
+} */
 
-@media screen and (min-width: 1100px) {
+@media screen and (min-width: 900px) {
     body {
         background: url(../images/Background.jpeg) no-repeat;
     }
