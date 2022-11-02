@@ -17,7 +17,7 @@ const locations = ["#web", "#java", "#csharp", "#c/c++"];
 const navigator = document.querySelector('.navigator');
 const mainSections = document.querySelectorAll('.firstSection');
 
-navigator.href=locations[0];
+navigator.href = locations[0];
 
 //Progressively increase the opacity of an HTML element with a given durations (milliseconds)
 const increaseTheOpacity = (element, duration) => {
@@ -83,7 +83,7 @@ slide1.addEventListener('click', () => {
     styleSpecificTile(0);
     subtitle1.innerHTML = prompts[0];
     counter = 1;
-  navigator.href=locations[counter-1];
+    navigator.href = locations[counter - 1];
 })
 
 slide2.addEventListener('click', () => {
@@ -93,7 +93,7 @@ slide2.addEventListener('click', () => {
     styleSpecificTile(1);
     subtitle1.innerHTML = prompts[1];
     counter = 2;
-  navigator.href=locations[counter-1];
+    navigator.href = locations[counter - 1];
 });
 
 slide3.addEventListener('click', () => {
@@ -103,7 +103,7 @@ slide3.addEventListener('click', () => {
     styleSpecificTile(2);
     subtitle1.innerHTML = prompts[2];
     counter = 3;
-  navigator.href=locations[counter-1];
+    navigator.href = locations[counter - 1];
 });
 
 slide4.addEventListener('click', () => {
@@ -113,7 +113,7 @@ slide4.addEventListener('click', () => {
     styleSpecificTile(3);
     subtitle1.innerHTML = prompts[3];
     counter = 4;
-    navigator.href=locations[counter-1];
+    navigator.href = locations[counter - 1];
 })
 
 

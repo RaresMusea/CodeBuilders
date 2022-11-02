@@ -14,7 +14,7 @@ const links = document.querySelector('.socialButton');
 const linksHeight = links.offsetHeight;
 const iconsContainer = document.querySelector('.socialIcons');
 const icons = document.querySelectorAll('.socialIcon');
-icons[0].id='firstIcon';
+icons[0].id = 'firstIcon';
 
 
 
