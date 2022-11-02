@@ -2,7 +2,7 @@
 
 
 .contactImage{
-  display:block;
+  /* display:block;*/
   margin:0 auto;
   width:60vmin;
   height:60vmin;
@@ -10,104 +10,101 @@
   float:none;
 }
 
-.mapouter {
-  position: relative;
-  text-align: right;
-  width: 100%;
-  height: 450px;
-}
-
-.gmap_canvas {
-  margin-top:2em;
-  overflow: hidden;
-  background: none !important;
-  width: 100%;
+.height-65vmin{
   height: 65vmin;
 }
+
+.height-60vmin{
+  height:60vmin;
+}
+
+/* .gmap_canvas {
+  /* margin-top:2em; */
+  /* overflow: hidden; */
+  /* background: none !important; */
+  /* width: 100%; 
+} */
 
 
 .gmap_iframe {
   height: 400px !important;
 }
 
-.remarks{
-  font-family:'PT Sans',sans-serif;
-  font-weight:bold;
-  font-size:3.8vmin;
-  text-align:center;
-  color:#2b4957;
-}
+/* .remarks{
+  /* font-family:'PT Sans',sans-serif; */
+  /* font-weight:bold; */
+  /* font-size:3.8vmin; */
+  /* text-align:center; */
+  /* color:#2b4957; */
+/*}*/
 
-.flexContact{
+/* .flexContact{
   margin-top:1em;
   display:flex;
   flex-direction:column;
   justify-content: center;
   align-items:center
-}
+} */
 
 .group img{
-  width:2em;
+  /* width:2em;
   height:2em;
-  margin-right:.5em;
+  margin-right:.5em; */
   cursor:pointer;
 }
 
-.group{
-  display:flex;
+ /* .group{
+  /* display:flex;
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
   transition:.2s ease-in-out;
   cursor:pointer;
-  margin-bottom:.2em;
-}
+  margin-bottom:.2em; 
+
+} */
 
 .group:hover{
   transform:scale(1.1);
 }
 
-.group .contactText{
-  font-size:3vmin;
-  font-family:'Roboto',sans-serif;
-  font-weight:700;
-  color:#048A81;
-}
+/* .group .contactText{
+
+} */
 
 
-.firstSection .image
+/* .firstSection .image
   {
-    display:none;
-  }
+    /* display:none; 
+  } */
 
 
-  .contactForm{
-    display:flex;
+  /* .contactForm{
+    /* display:flex;
     justify-content: center;
     margin-top:2em;
     align-items:center;
+    flex-direction: column; 
+  } */
+
+  /* .formElement{
+    /* display:flex;
     flex-direction: column;
-  }
-
-  .formElement{
-    display:flex;
-    flex-direction: column;
-  }
-
-
+  } */
 
   .label{
-    font-family:'PT Sans',sans-serif;
+    /* font-family:'PT Sans',sans-serif;
     margin-left:.5em;
     margin-bottom:.4em;
-    font-weight:bolder;
+    font-weight:bolder; */
     transition:.2s ease-in-out
   }
 
-  #gdprLabel{
+  /* #gdprLabel{
     margin-top:1em;
-  }
+  } */
 
+  /*Injected with javascript*/
   .error{
     display:flex;
     justify-content: center;
@@ -185,21 +182,21 @@
   }
 
   select, .contactInput{
-    outline:none;
+    /* outline:none; */
     border:1px solid #2b4957;
     transition:.2s ease-in-out;
-    padding-left:.5em;
+    /*padding-left:.5em;
     font-family:'Roboto',sans-serif;
     font-size:1em;
     border-radius:10px;
     width:60vmin;
     height:35px;
-    margin-bottom:1em;
+    margin-bottom:1em; */
   }
 
-  option{
+  /* option{
     font-family:'Roboto',sans-serif;
-  }
+  } */
 
   select:focus{
     text-align:center;
@@ -207,22 +204,22 @@
   }
 
   #textMessage{
-    width:60vmin;
+    /* width:60vmin;
     height:20vmin;
     max-width:60vmin;
     max-height:20vmin;
     min-width:60vmin;
-    min-height:20vmin;
+    min-height:20vmin; */
     resize:none;
     background:#dfdfdf;
-    font-size:1em;
+    /* font-size:1em; */
     text-indent:.5em;
-    font-family:'Roboto',sans-serif;
+    /* font-family:'Roboto',sans-serif; */
     border:1px solid #2b4957;
-    outline:none;
+    /* outline:none; */
     transition:.2s ease-in-out;
-    padding-top:.2em;
-    border-radius:10px;
+    /* padding-top:.2em;
+    border-radius:10px; */
   }
 
   #textMessage:focus{
@@ -234,15 +231,16 @@
     color:white;
   }
 
-  .gdprConsent{
+  /* .gdprConsent{
     display:flex;
     align-items: flex-start;
     justify-content: flex-start;
     margin-top:1em;
     font-family:'Roboto',sans-serif;
     font-size:1em;
-  }
+  } */
 
+  /*Cannot be overriden with normal bootstrap*/
   input[type="checkbox"] {
     appearance: none;
     background-color: #fff;
@@ -268,18 +266,18 @@
   }
 
   .submitFormButton{
-    margin:0 auto;
+    /* margin:0 auto;
     margin-top:1em;
-    border-radius:20px;
-    outline:none;
-    width:40vmin;
+    border-radius:20px; */
+    /* outline:none; */
+    /* width:40vmin;
     padding:.5em;
     background-color:#048A81;
     color:white;
-    border:none;
+    border:none; */
     transition:.2s ease-in-out;
-    font-weight:bolder;
-    font-family:'PT Sans',sans-serif;
+    /* font-weight:bolder;
+    font-family:'PT Sans',sans-serif; */
   }
 
   .submitFormButton:hover,.submitFormButton:focus{
@@ -290,22 +288,24 @@
 
 
 
-@media screen and (min-width:900px) {
-  .contactImage{
-    float:right;
+  @media screen and (min-width:1300px){
+    .contactImage{
+      float:right;
+    }
   }
 
+@media screen and (min-width:900px) {
 
-  .content{
+  /* .content{
     display:flex;
     justify-content: center;
     align-items: flex-start;
-  }
+  } */
 
-  .contactForm{
+  /* .contactForm{
     float:right;
     margin:0 auto;
-  }
+  } */
 }
 
 .alertBox{
@@ -324,44 +324,44 @@
     height: 60vmin;
   }
 
-  form{
-    padding-top:2em;
-  }
+  /* form{
+    /* padding-top:2em; 
+  } */
 
   .firstSection .image
   {
-    display:block;
+    /* display:block;
     margin-top:1.5em;
     width:50%;
-    height:800px;
+    height:600px; */
     background-size: cover;
     background-blend-mode: overlay;
     background: url('../images/mitchell-luo-FWoq_ldWlNQ-unsplash.jpg') no-repeat;
   }
 
-  .image .text{
-    color:white;
+  /* .image .text{
+    /* color:white;
     font-weight:bolder;
     text-align:center;
     font-family:'Oswald',serif;
-    padding-top:3.5em;
-    font-size:1.5em;
-  }
+    padding-top:.5em;
+    font-size:1.5em; 
+  } */
 
   .logo{
-    font-family:"VCR OSD Mono",sans-serif;
+/*     
     font-weight:bolder;
     color:white;
     text-align:center;
     font-size:2em;
     margin:0 auto;
-    padding-top:8em;
+    padding-top:1em; */
     cursor:pointer;
     transition:.2s ease-in;
   }
 
   .logo:hover{
-    transform:translateY(50px);
+    transform:translateY(140px);
   }
 
   .alertBox{
@@ -370,6 +370,4 @@
     height:40%;
     border-radius:10px;
   }
-
-
 }

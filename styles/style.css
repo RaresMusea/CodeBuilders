@@ -4,6 +4,108 @@
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
+
+.fontMonsterrat{
+  font-family:'Montserrat Alternates',sans-serif;
+}
+
+.fs6-vmin{
+  font-size:6vmin;
+}
+
+.fontPTSans{
+font-family:'PT Sans',sans-serif;
+}
+
+.fontRoboto{
+  font-family:'Roboto',sans-serif;
+}
+
+.fs3dot8vmin{
+  font-size:3.8vmin;
+}
+
+.fullwidth{
+  width:100%;
+}
+
+.color-lightBluePalette{
+  color:#2b4957;
+}
+
+.color-darkBluePalette{
+  color: #2d3047;
+}
+
+.color-white{
+  color:#ffff;
+}
+
+.width-2em{
+  width:2em;
+}
+
+.width-60vmin{
+  width:60vmin
+};
+
+.max-width-60vmin{
+  max-width: 60vmin;
+}
+
+.max-height-20vmin{
+  max-height: 20vmin;
+}
+
+.min-width-60vmin{
+  min-width:60vmin;
+}
+
+.min-height-20vmin{
+  min-height:20vmin;
+}
+
+.width-40vmin{
+  width:40vmin;
+}
+
+.height-2em{
+  height:2em;
+}
+
+.height-35px{
+  height:35px;
+}
+
+.fs-3vmin{
+  font-size:3vmin;
+}
+
+.colorGreen{
+  color:#048A81;
+}
+
+.bg-colorGreen{
+  background-color:#048A81;
+}
+
+.no-outline{
+  outline:none;
+}
+
+.height-600{
+  height: 600px;
+}
+
+.font-VCR{
+  font-family:"VCR OSD Mono",sans-serif;
+}
+
+.font-Oswald{
+  font-family:'Oswald',serif;
+}
+
+
 main .paragraph {
   /* margin-top: 4vmax; */
   /* font-size: .9em; */
@@ -148,10 +250,10 @@ main .firstSection .subtitle .highlightedText {
  */
 
 main .firstSection .subtitleContact {
-  font-family: "Montserrat Alternates", sans-serif;
-  font-size: 6vmin;
-  margin-top: 1em;
-  text-align: center;
+  /* font-family: "Montserrat Alternates", sans-serif;
+  font-size: 6vmin; */
+  /* margin-top: 1em;
+  text-align: center; */
 }
 
 /* main .firstSection .learningImage {

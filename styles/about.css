@@ -6,7 +6,7 @@
   }
  */
 
-.team {
+/* .team {
   /* display:flex;
   align-items:center;
   justify-content:center;
@@ -15,8 +15,8 @@
   /* gap:1em;
   width:100%; */
   /* padding-left:0;
-  padding-right:0; */
-}
+  padding-right:0;
+} */
 
 .member {
   /* margin-top:2em; */
@@ -79,14 +79,14 @@
 }
 
 @media screen and (min-width: 900px) {
-  .team {
+  /*.team {
     /* display:flex;
     align-items:center;
     justify-content:center;
     flex-direction:row;
     gap:1em;
-    flex-wrap:wrap; */
-  }
+    flex-wrap:wrap; }
+  */
   .member {
     /* margin-top:2em; */
     width: 30%;
