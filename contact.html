@@ -18,12 +18,15 @@
   </head>
 
   <body>
+   
     <header>
       <nav class="p-4">
         <div
           class="navigationMenu d-flex flex-row justify-content-between align-content-center mb-2"
         >
-          <h1 class="text-center text-decoration-none mb-0">
+          <h1
+            class="text-center text-decoration-none mb-0 font-VCR color-darkBluePalette"
+          >
             <a href="index.html" class="pageLogo">CodeBuilders</a>
           </h1>
           <img
@@ -33,7 +36,7 @@
             class="hamburger"
           />
         </div>
-        <ul class="untoggled mb-0 list-unstyled">
+        <ul class="untoggled mb-0 list-unstyled font-VCR">
           <li class="mb-2">
             <a class="text-decoration-none fw-bolder" href="index.html">HOME</a>
           </li>
@@ -203,12 +206,12 @@
             class="image d-sm-none d-md-none d-lg-none d-xl-block d-xxl-block mt-2 w-50 height-600 d-none"
           >
             <p
-              class="text d-sm-none d-md-none d-lg-none d-xl-block d-xxl-block color-white fw-bolder text-center font-Oswald pt-1 fs-4"
+              class="text d-sm-none d-md-none d-lg-none d-xl-block d-xxl-block color-white fw-bolder text-center font-Oswald pt-1 fs-4 fontRoboto"
             >
               We'd like to get to know you better!
             </p>
             <p
-              class="logo d-sm-none d-lg-block d-md-none d-xl-block d-xxl-block font-VCR fw-bolder color-white text-center fs-2 m-auto pt-4"
+              class="logo d-sm-none d-lg-block d-md-none d-xl-block d-xxl-block font-VCR fw-bolder color-white text-center fs-2 m-auto pt-4 fontRoboto"
             >
               CodeBuilders
             </p>
@@ -343,53 +346,45 @@
       <div class="footer mt-1">
         <div class="flexWrapper">
           <div class="rightContent">
-            <h3 class="newsletterInfo p-4 text-center">
-              Get the freshest CodeBuilders news
-            </h3>
+            <h3 class="newsletterInfo fontRoboto color-lightBluePalette p-4 text-center">Get the freshest CodeBuilders news</h3>
             <form class="newsletterForm" method="POST">
-              <input
-                type="email"
-                placeholder="Your email here"
-                id="email"
-                class="d-block m-auto text-center fs-6 p-2 h-25 fw-bolder w-50"
-              />
+              <input type="email" placeholder="Your email here" id="email"
+                class="d-block m-auto text-center fs-6 p-2 h-25 fw-bolder w-50 fontRoboto">
             </form>
             <button
-              class="subscribeNewsletter d-block p-2 mt-3 m-auto btn-outline-light border-0 fw-bolder"
-            >
-              Subscribe
-            </button>
+              class="subscribeNewsletter d-block p-2 mt-3 m-auto btn-outline-light border-0 fw-bolder fontMonsterrat color-white">Subscribe</button>
           </div>
           <div class="leftContent">
-            <h4 class="LogoOut mt-3">CodeBuilders<sup>®</sup></h4>
+            <h4 class="LogoOut mt-3 font-VCR color-lightBluePalette">CodeBuilders<sup>®</sup></h4>
             <div class="keywords w-100">
               <ul class="shortDescription list-unstyled text-center mb-2">
-                <li class="text-center fw-bolder d-inline">Courses</li>
-                <li class="text-center fw-bolder d-inline">|</li>
-                <li class="text-center fw-bolder d-inline">Learning</li>
-                <li class="text-center fw-bolder d-inline">|</li>
-                <li class="text-center fw-bolder d-inline">Careers</li>
+                <li class="text-center fw-bolder d-inline fontMonsterrat">Courses</li>
+                <li class="text-center fw-bolder d-inline fontMonsterrat">|</li>
+                <li class="text-center fw-bolder d-inline fontMonsterrat">Learning</li>
+                <li class="text-center fw-bolder d-inline fontMonsterrat">|</li>
+                <li class="text-center fw-bolder d-inline fontMonsterrat">Careers</li>
               </ul>
-              <p class="motto text-center fw-bold">
-                Designed for self-taughts. By self- taugths.
-              </p>
+              <p class="motto text-center fw-bold fontPTSans color-lightBluePalette">Designed for self-taughts. By self- taugths.</p>
             </div>
           </div>
         </div>
         <div class="gridLayout">
-          <h4 class="headingFour fs-6">ABOUT</h4>
-          <h4 class="headingFour fs-6">TEAM</h4>
-          <h4 class="headingFour fs-6">PRODUCTS</h4>
-          <h4 class="headingFour fs-6">TESTIMONIALS</h4>
-          <h4 class="headingFour d-none"></h4>
-          <h4 class="headingFour fs-6">TERMS & CONDITIONS</h4>
-          <h4 class="headingFour fs-6">FAQ</h4>
-          <h4 class="headingFour fs-6">PRIVACY</h4>
-          <h4 class="headingFour fs-6">GDPR</h4>
+          <h4 class="headingFour fontRoboto fs-6 color-lightBluePalette">ABOUT</h4>
+          <h4 class="headingFour fontRoboto fs-6 color-lightBluePalette">TEAM</h4>
+          <h4 class="headingFour fs-6 fontRoboto color-lightBluePalette">PRODUCTS</h4>
+          <h4 class="headingFour fs-6 fontRoboto color-lightBluePalette">TESTIMONIALS</h4>
+          <h4 class="headingFour d-none">
+          </h4>
+          <h4 class="headingFour fs-6 fontRoboto color-lightBluePalette">TERMS & CONDITIONS</h4>
+          <h4 class="headingFour fs-6 fontRoboto color-lightBluePalette">FAQ</h4>
+          <h4 class="headingFour fs-6 fontRoboto color-lightBluePalette">PRIVACY</h4>
+          <h4 class="headingFour fs-6 fontRoboto color-lightBluePalette">GDPR</h4>
         </div>
-        <div class="line pt-3 fw-bold">
-          <p>©2022 CodeBuilders Solutions. All rights reserved.</p>
-        </div>
+      </div>
+      </div>
+      <div class="line pt-3 fw-bold ">
+        <p class="text-center m-auto fontPTSans color-lightBluePalette">©2022 CodeBuilders Solutions. All rights reserved. </p>
+      </div>
       </div>
     </footer>
 

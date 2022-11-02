@@ -112,9 +112,9 @@ main .paragraph {
 
   text-indent: 0.5em;
   /* padding: 0 .1em; */
-  font-family: "Roboto", sans-serif;
+  /* font-family: "Roboto", sans-serif; */
   /* line-height: 1.2em; */
-  color: #2d3047;
+  /* color: #2d3047; */
 }
 
 main .socialButton {
@@ -202,23 +202,23 @@ main .firstSection {
   background: rgba(255, 255, 255, 0.3);
 }
 
-main .firstSection .subtitle {
-  font-family: "Montserrat Alternates", sans-serif;
+/* main .firstSection .subtitle {
+  /* font-family: "Montserrat Alternates", sans-serif; */
   /* font-size: 7vmin; */
   /* margin-top: 1em; */
-  /* text-align: center; */
-}
+  /* text-align: center;
+} */
 
 main .firstSection .subtitle span {
-  font-family: "VCR OSD Mono", sans-serif;
-  color: #2d3047;
+  /* font-family: "VCR OSD Mono", sans-serif;
+  color: #2d3047; */
   cursor: pointer;
 }
 
 main .firstSection .subtitle .highlightedText {
-  color: #2b4957;
+  /* color: #2b4957; */
   /* font-weight: 900; */
-  font-family: "Oswald", sans-serif;
+  /* font-family: "Oswald", sans-serif; */
   -webkit-animation: pulse 2.5s infinite;
   animation: pulse 2.5s infinite;
 }
@@ -249,12 +249,12 @@ main .firstSection .subtitle .highlightedText {
   }
  */
 
-main .firstSection .subtitleContact {
+/* main .firstSection .subtitleContact {
   /* font-family: "Montserrat Alternates", sans-serif;
   font-size: 6vmin; */
   /* margin-top: 1em;
-  text-align: center; */
-}
+  text-align: center; 
+} */
 
 /* main .firstSection .learningImage {
   /* width: 50vmin;
@@ -264,19 +264,19 @@ main .firstSection .subtitleContact {
   }
  */
 
-main .firstSection .sectionHeading {
-  font-family: "Oswald", sans-serif;
-  color: #2b4957;
+/* main .firstSection .sectionHeading {
+  /* font-family: "Oswald", sans-serif;
+  color: #2b4957; */
   /* text-align: center; */
   /* padding: 1em; */
-  /* font-size: 1.2em; */
-}
+  /* font-size: 1.2em; 
+} */
 
-main .firstSection .logoMarker {
-  font-family: "VCR OSD Mono", sans-serif;
-  color: #2d3047;
-  /* font-weight: bolder; */
-}
+/* main .firstSection .logoMarker {
+  /* font-family: "VCR OSD Mono", sans-serif;
+  color: #2d3047; */
+  /* font-weight: bolder; 
+} */
 
 main .firstSection #start {
   /* display: block; */
@@ -287,7 +287,7 @@ main .firstSection #start {
   transition: 0.3s ease-in-out;
   background-color: #839ca3;
   /* color: White; */
-  font-family: "Montserrat Alternates", sans-serif;
+  /* font-family: "Montserrat Alternates", sans-serif; */
   /* font-weight: bolder; */
   font-size: 3vmin;
   /* margin: 0 auto 1.5em;
@@ -307,9 +307,9 @@ main .firstSection .quotation {
   display: block;
   text-align: center; */
   /* font-weight: bolder; */
-  font-family: "Roboto", sans-serif;
+  /* font-family: "Roboto", sans-serif; */
   /* font-size: 1em; */
-  color: #2b4957;
+  /* color: #2b4957; */
   cursor: pointer;
   /* margin-bottom: 1em; */
 }
@@ -361,11 +361,11 @@ main .firstSection .wrapper .testimonial .testimonialAuthor {
   font-weight: bolder; */
   cursor: pointer;
   /* text-align:center; */
-  font-family: "PT Sans", sans-serif;
+  /* font-family: "PT Sans", sans-serif; */
 }
 
 main .firstSection .wrapper .testimonial .testimonialContent {
-  font-family: "Roboto", sans-serif;
+  /* font-family: "Roboto", sans-serif; */
   /* font-size: .7em; */
   /* line-height: 1.2em; */
   /* font-style: italic;
