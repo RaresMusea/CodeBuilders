@@ -55,14 +55,14 @@ const buildCard = (courseTitle, language, description, pictureURL, index) => {
     const section = document.querySelectorAll('.courseCardContainer')[index];
     const html = `
   
-    <div class="courseCard"> 
-      <img src='${pictureURL}' class="courseImage" alt="Course Image"/>
-      <h4 class="courseTitle">${courseTitle}</h4>
-      <span class="language"><em>Language:</em>
+    <div class="courseCard rounded-3 mt-3 p-1"> 
+      <img src='${pictureURL}' class="courseImage d-block m-auto mb-4  mt-1 shadow-lg" alt="Course Image"/>
+      <h4 class="courseTitle fontRoboto color-lightBluePalette mb-2 text-center">${courseTitle}</h4>
+      <span class="language d-flex justify-content-center align-content-center"><em class="fontRoboto mx-1">Language:</em>
       <img src="${language}" alt="Logo" class="logoLanguage"/>
       </span>
-      <p class="paragraph">${description}</p>
-      <button class="startCourse">Start Course</button>
+      <p class="paragraph mt-5 fs-6 lh-2 px-3 py-0 fontRoboto color-darkBluePalette">${description}</p>
+      <button class="startCourse no-outline d-block color-white rounded-3 shadow-lg fontPTSans m-auto mt-4 mb-3 border-0 fw-bolder p-0 ">Start Course</button>
     </div>`
 
     section.innerHTML += html;
@@ -72,12 +72,12 @@ const buildCard = (courseTitle, language, description, pictureURL, index) => {
 const buildSection = (received, index) => {
     const main = document.querySelector('main');
     const html = `
-  <section class="firstSection" id=${received.id}>
-    <h3 class="subtitle">${received.title}</h3>
-    <img src="${received.image}" class="webDevPresentationImage" alt="Web Dev Presentation"/>
-    <p class="paragraph">${received.about}</p>
-    <p class="paragraph">${received.purpose}</p>
-    <section class="courseCardContainer"></section>
+  <section class="firstSection rounded-5  shadow-lg mt-5 m-auto p-2 mb-4" id=${received.id}>
+    <h3 class="h3 subtitle mt-2 text-center mb-4 mx-lg-5 mx-md-3 my-sm-5 fontMonsterrat fw-bolder">${received.title}</h3>
+    <img src="${received.image}" class="webDevPresentationImage h-auto mt-4 mb-2 d-block m-auto" alt="Web Dev Presentation"/>
+    <p class="paragraph mt-4 fs-6 lh-2 px-3 py-0 fontRoboto color-darkBluePalette">${received.about}</p>
+    <p class="paragraph mt-4 fs-6 lh-2 px-3 py-0 fontRoboto color-darkBluePalette">${received.purpose}</p>
+    <section class="courseCardContainer d-flex gap-4 mt-4 overflow-scroll"></section>
   `
     main.innerHTML += html;
 
