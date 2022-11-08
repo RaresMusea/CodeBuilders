@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CodeBuilders-Courses</title>
+    <link rel="stylesheet" href="styles/navigation.css" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="styles/courses.css" />
+    <link rel="stylesheet" href="styles/footer.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <script src="scripts/APIConsume.js" defer></script>
+    <script src="scripts/index.js" defer></script>
+    <script src="scripts/slideshow.js" defer></script>
+  </head>
+
+  <body>
+    <div class="overflow-hidden">
+    <header>
+      <nav class="p-4">
+        <div
+          class="navigationMenu d-flex flex-row justify-content-between align-content-center mb-2"
+        >
+          <h1 class="text-center text-decoration-none mb-0 font-VCR">
+            <a href="index.html" class="pageLogo">CodeBuilders</a>
+          </h1>
+          <img
+            src="images/menu.svg"
+            alt="Hamburger Menu Icon"
+            id="hamburgerMenu"
+            class="hamburger"
+          />
+        </div>
+        <ul class="untoggled mb-0 list-unstyled font-VCR">
+          <li class="mb-2">
+            <a class="text-decoration-none fw-bolder" href="index.html">HOME</a>
+          </li>
+          <li class="mb-2">
+            <a href="about.html" class="text-decoration-none fw-bolder"
+              >ABOUT US</a
+            >
+          </li>
+          <li class="mb-2">
+            <a href="courses.html" class="text-decoration-none fw-bolder"
+              >COURSES</a
+            >
+          </li>
+          <li class="mb-2">
+            <a href="contact.html" class="text-decoration-none fw-bolder"
+              >CONTACT</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div class="socialButton disabled">
+        <img src="images/link.svg" alt="Social Links" class="open" />
+        <div class="socialIcons">
+          <a href="https://web.facebook.com/rares.musea" target="_blank"
+            ><img
+              class="socialIcon"
+              src="images/facebook-logo-2019.svg"
+              alt="Facebook Logo"
+              title="Facebook"
+          /></a>
+          <a href="https://www.instagram.com/_raresmusea_2001_/" target="_blank"
+            ><img
+              class="socialIcon"
+              src="images/instagram.svg"
+              alt="Instagram Logo"
+              title="Instagram"
+          /></a>
+          <a href="https://github.com/RaresMusea" target="_blank"
+            ><img
+              class="socialIcon"
+              src="images/github (1).svg"
+              alt="Github Logo"
+              title="GitHub"
+          /></a>
+          <a
+            href="https://www.linkedin.com/in/rare%C8%99-gabriel-mu%C8%99ea-325b4a214/"
+            target="_blank"
+            ><img
+              class="socialIcon"
+              src="images/linkedin.svg"
+              alt="LinkedIn Logo"
+              title="LinkedIn"
+          /></a>
+        </div>
+      </div>
+      <section class="slideshowContainer w-100 overflow-hidden">
+        <div class="slideshow overflow-hidden d-flex">
+          <input type="radio" name="slide1" id="slide1" class="radio d-none" />
+          <input type="radio" name="slide2" id="slide2" class="radio d-none" />
+          <input type="radio" name="slide3" id="slide3" class="radio d-none" />
+          <input type="radio" name="slide4" id="slide4" class="radio d-none" />
+          <div class="slide first web overflow-hidden">
+            <div class="insideSlideShow h-auto justify-content-center align-content-center position-absolute ">
+              <h3 class="subtitle1 text-center fs-8vmin fontPTSans opacity-75"></h3>
+            </div>
+            <a href="#" class="navigator"
+              ><button class="enroll">ENROLL NOW</button></a
+            >
+            <img
+              src="images/imageSlideshow/retina_1708x683_staging.toptal.net_front-end_dynamic-css-with-custom-properties-a84ea67ee11d387153c71eb243ece5e1.png"
+              alt="Front end web dev"
+              class="slideshowItem"
+            />
+          </div>
+          <div class="slide">
+            <img
+              src="images/imageSlideshow/image-1581461321730-c533c7672139a6d2e7a9d5a0829d6e82.png"
+              alt="Java"
+              class="slideshowItem"
+            />
+          </div>
+          <div class="slide">
+            <img
+              src="images/imageSlideshow/retina_800x320_cover-0221-elasticsearch-dot-net-developers-Waldek_Newsletter-5da90b6465a077181cf457adea10f661.png"
+              alt=".NET Platform"
+              class="slideshowItem"
+            />
+          </div>
+          <div class="slide">
+            <img
+              src="images/imageSlideshow/retina_1708x683_cover-0325-LearnCandC__Languages_Dan_Newsletter-743100f051077054fa1cc613ff4523a2.png"
+              alt="C and C++"
+              class="slideshowItem"
+            />
+          </div>
+        </div>
+        <div class="manualNavigation position-absolute w-100 d-flex justify-content-center">
+          <label for="slide1" class="manual manual1 p-1 rounded-circle"></label>
+          <label for="slide2" class="manual manual2 p-1 rounded-circle"></label>
+          <label for="slide3" class="manual manual3 p-1 rounded-circle"></label>
+          <label for="slide4" class="manual manual4 p-1 rounded-circle"></label>
+        </div>
+      </section>
+
+      <h2 class="informations fontPTSans fs6-vmin text-center mt-4 color-lightBluePalette">Check out our latest <span>courses</span>!</h2>
+    </main>
+    <footer>
+      <div class="footer mt-1">
+        <div class="flexWrapper">
+          <div class="rightContent">
+            <h3 class="newsletterInfo fontRoboto color-lightBluePalette p-4 text-center">Get the freshest CodeBuilders news</h3>
+            <form class="newsletterForm" method="POST">
+              <input type="email" placeholder="Your email here" id="email"
+                class="d-block m-auto text-center fs-6 p-2 h-25 fw-bolder w-50 fontRoboto">
+            </form>
+            <button
+              class="subscribeNewsletter d-block p-2 mt-3 m-auto btn-outline-light border-0 fw-bolder fontMonsterrat color-white">Subscribe</button>
+          </div>
+          <div class="leftContent">
+            <h4 class="LogoOut mt-3 font-VCR color-lightBluePalette">CodeBuilders<sup>®</sup></h4>
+            <div class="keywords w-100">
+              <ul class="shortDescription list-unstyled text-center mb-2">
+                <li class="text-center fw-bolder d-inline fontMonsterrat">Courses</li>
+                <li class="text-center fw-bolder d-inline fontMonsterrat">|</li>
+                <li class="text-center fw-bolder d-inline fontMonsterrat">Learning</li>
+                <li class="text-center fw-bolder d-inline fontMonsterrat">|</li>
+                <li class="text-center fw-bolder d-inline fontMonsterrat">Careers</li>
+              </ul>
+              <p class="motto text-center fw-bold fontPTSans color-lightBluePalette">Designed for self-taughts. By self- taugths.</p>
+            </div>
+          </div>
+        </div>
+        <div class="gridLayout">
+          <h4 class="headingFour fontRoboto fs-6 color-lightBluePalette">ABOUT</h4>
+          <h4 class="headingFour fontRoboto fs-6 color-lightBluePalette">TEAM</h4>
+          <h4 class="headingFour fs-6 fontRoboto color-lightBluePalette">PRODUCTS</h4>
+          <h4 class="headingFour fs-6 fontRoboto color-lightBluePalette">TESTIMONIALS</h4>
+          <h4 class="headingFour d-none">
+          </h4>
+          <h4 class="headingFour fs-6 fontRoboto color-lightBluePalette">TERMS & CONDITIONS</h4>
+          <h4 class="headingFour fs-6 fontRoboto color-lightBluePalette">FAQ</h4>
+          <h4 class="headingFour fs-6 fontRoboto color-lightBluePalette">PRIVACY</h4>
+          <h4 class="headingFour fs-6 fontRoboto color-lightBluePalette">GDPR</h4>
+        </div>
+      </div>
+      </div>
+      <div class="line pt-3 fw-bold ">
+        <p class="text-center m-auto fontPTSans color-lightBluePalette">©2022 CodeBuilders Solutions. All rights reserved. </p>
+      </div>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+  </div>
+  </body>
+</html>
